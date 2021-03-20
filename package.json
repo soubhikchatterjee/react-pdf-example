@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@soubhikchatterjee/react-pdf": "^0.1.23",
+    "@soubhikchatterjee/react-pdf": "^0.1.24",
+    "classnames": "2.2.6",
+    "pdfjs-dist": "2.6.347",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.3",
-    "classnames": "2.2.6",
-    "pdfjs-dist": "2.6.347",
     "redux": "4.0.5",
     "redux-thunk": "2.3.0"
   },
