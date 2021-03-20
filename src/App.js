@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactPDF from "@soubhikchatterjee/react-pdf";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ReactPDF
+        uniqueId={Math.random()}
+        filename="c4611_sample_explain.pdf"
+        pdfUrl="https://api.allorigins.win/raw?url=https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf"
+      />
     </div>
   );
 }
-
-export default App;
